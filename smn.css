@@ -1,0 +1,20 @@
+#floatingPanel {
+	width: 50% !important;
+	right: 0 !important;
+}
+
+.sectionPanel .separator {
+	border: 0px !important;
+}
+
+.titleanchored {
+  display: none !important;
+}
+
+.appTitle {
+  display: none !important;
+}
+
+.floatChart {
+  transform: translate-x(100%);
+}
