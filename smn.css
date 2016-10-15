@@ -1,7 +1,4 @@
-#floatingPanel {
-	width: 50% !important;
-	right: 0 !important;
-}
+/*clean up*/
 
 .sectionPanel .separator {
 	border: 0px !important;
@@ -15,6 +12,41 @@
   display: none !important;
 }
 
-.floatChart {
-  transform: translate-x(100%);
+.floatingPanel .section, .swiper-container, .floatingPanel .sections {
+  overflow: visible;
+}
+
+/*typography*/
+
+body.layout-float-left .floatingPanel .section {
+  padding: 0 15% 0 8% !important;
+  text-align: justify !important;
+}
+
+h1.title{
+  text-align: center;
+  opacity: .9;
+}
+
+.navDots .navDotsInner {
+  opacity: .25;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.navDots .navDotsInner:hover {
+  opacity: .9;
+}
+
+/*in section static images*/
+
+.image-container.section-icon {
+  left: 50%;
+  margin-left: -60px;
+  opacity: .9;
+}
+.image-container.sankey-diagram {
+  transform: translateX(100%);
+  width: 200%;
 }

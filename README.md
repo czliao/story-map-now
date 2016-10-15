@@ -15,6 +15,26 @@ In order to hook up the diagrams:
 <script type="text/javascript" src="https://rawgit.com/czliao/story-map-now/master/smn.js"></script>
 <link rel="stylesheet" href="http://rawgit.com/czliao/story-map-now/master/smn.css" />
 ```
+Use this instead:
+```
+<style type="text/css">
+h1.title{
+    text-align: center;
+    opacity: .9;
+}
+.image-container.section-icon {
+    left: 50%;
+    margin-left: -60px;
+    opacity: .9;
+}
+</style>
+```
+
+```
+<style type="text/css">
+@import url("http://rawgit.com/czliao/story-map-now/master/smn.css");
+</style>
+```
 Done.
 
 ## 2.1 Static images (Icons)
@@ -29,9 +49,17 @@ For the implementation I am adding this line of code in the section where I wish
 <img alt="" class="section-icon" src="https://dl.dropboxusercontent.com/s/z2m2uhrcxz57mvl/icon-energy.png?dl=0" />
 ```
 
+```
+<div class="image-container section-icon"><img alt="" src="https://dl.dropboxusercontent.com/s/z2m2uhrcxz57mvl/icon-energy.png?dl=0" /></div>
+```
+
 ## 2.2 Static images (Sankey Diagrams)
 
 Same dropbox image hosting solution. Only difference is the class name of the tag:
 ```
 <img alt="" class="sankey-diagram" src="https://dl.dropboxusercontent.com/s/j30y9guktivs4zx/1-ENERGY-baseline.png?dl=0" />
+```
+
+```
+<div class="image-container sankey-diagram"><img alt="" src="https://dl.dropboxusercontent.com/s/j30y9guktivs4zx/1-ENERGY-baseline.png?dl=0" /></div>
 ```
