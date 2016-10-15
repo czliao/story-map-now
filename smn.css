@@ -12,6 +12,16 @@
   display: none !important;
 }
 
+/*layouts*/
+
+body.layout-float-left #floatingPanel {
+  left: 100px !important;
+}
+
+.swiper-slide:not(.swiper-slide-active) { 
+  opacity: 0.25 
+}
+
 .floatingPanel .section, .swiper-container, .floatingPanel .sections {
   overflow: visible;
 }
@@ -47,6 +57,8 @@ h1.title{
   opacity: .9;
 }
 .image-container.sankey-diagram {
-  transform: translateX(100%);
-  width: 200%;
+  width: 160%;
+  bottom: 60px;
+  position: absolute !important;
+  left: 110%;
 }
