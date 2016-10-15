@@ -14,7 +14,7 @@ On the first page (not necessary but recommended) of the story map, during edit,
 ![Class tag for section icon](https://raw.githubusercontent.com/czliao/story-map-now/master/assets/screencaps/sc_html-mode.png
 )
 
-There, at the top of the page, please add a pair of
+There, at the top of the page, please add a pair of script tags like this:
 
 ```
 <style type="text/css">
@@ -54,3 +54,5 @@ Same dropbox image hosting solution. Only difference is the class name of the ta
 ```
 <div class="image-container sankey-diagram"><img alt="" src="https://dl.dropboxusercontent.com/s/j30y9guktivs4zx/1-ENERGY-baseline.png?dl=0" /></div>
 ```
+
+That's all!
