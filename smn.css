@@ -58,7 +58,7 @@ h1.title{
   opacity: .9;
 }
 .image-container.sankey-diagram {
-  width: 160%;
+  width: 280%;
   bottom: 60px;
   position: absolute !important;
   left: 110%;
